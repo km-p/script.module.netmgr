@@ -1,0 +1,86 @@
+# XBMC Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2013-12-12 22:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Klaus Mayer <klaus@amg-andorf.at>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#32001"
+msgid "Network"
+msgstr "Netzwerk"
+
+msgctxt "#32002"
+msgid "Interface"
+msgstr "Schnittstelle"
+
+msgctxt "#32003"
+msgid "eth0"
+msgstr ""
+
+msgctxt "#32004"
+msgid "wlan0"
+msgstr ""
+
+msgctxt "#32011"
+msgid "SID"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Password"
+msgstr "Passwort"
+
+msgctxt "#32013"
+msgid "Encryption"
+msgstr "Verschlüsselung"
+
+msgctxt "#32014"
+msgid "none"
+msgstr "ohne"
+
+msgctxt "#32015"
+msgid "WEP-PSK"
+msgstr ""
+
+msgctxt "#32016"
+msgid "WPA-PSK"
+msgstr ""
+
+msgctxt "#32040"
+msgid "Use DHCP"
+msgstr "Verwende DHCP"
+
+msgctxt "#32041"
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+msgctxt "#32042"
+msgid "Subnetmask"
+msgstr "Subnetz"
+
+msgctxt "#32043"
+msgid "Gateway"
+msgstr "Gateway"
+
+msgctxt "#32099"
+msgid "Apply and Reboot"
+msgstr "Anwenden und Neustart"
+
+msgctxt "#32151"
+msgid "Choose Options"
+msgstr "Option auswählen"
+
+msgctxt "#32152"
+msgid "No Options to Choose"
+msgstr "Keine Optionen verfügbar"
+
+msgctxt "#32153"
+msgid "Not Available"
+msgstr "Nicht verfügbar"

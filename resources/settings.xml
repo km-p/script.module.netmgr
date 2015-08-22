@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32001">
+        <!-- Interface -->
+        <setting label="32002" id="interface" type="select" lvalues="32003|32004"></setting>
+        <!--<setting label="32002" id="interface" type="select" lvalues="32003"></setting>-->
+
+        <setting type="sep"></setting>
+
+        <!-- ESSID, PSK -->
+        <!--<setting label="32011" id="essid" type="text" visible="eq(-2,wlan0)"></setting>-->
+        <setting label="32011" id="essid" subsetting="true" type="action" visible="eq(-2,wlan0)" action="RunScript(script.module.netmgr, ScanWireless)"></setting>
+        <setting label="32013" id="encryption" subsetting="true" type="select" visible="eq(-3,wlan0)" lvalues="32014|32015|32016"></setting>
+        <setting label="32012" id="psk" subsetting="true" type="text" visible="eq(-4,wlan0)"></setting>
+        <setting type="sep" visible="eq(-5,wlan0)"></setting>
+
+        <!-- Toggle DHCP -->
+        <setting label="32040" id="dhcp" type="bool" default="true"></setting>
+
+        <!-- Separator -->
+        <setting type="sep"></setting>
+
+        <!-- Fields for fixed IP address -->
+        <setting label="32041" id="ipaddress" subsetting="true" type="ipaddress" visible="eq(-2,false)"></setting>
+        <setting label="32042" id="subnet" subsetting="true" type="ipaddress" visible="eq(-3,false)"></setting>
+        <setting label="32043" id="gateway" subsetting="true" type="ipaddress" visible="eq(-4,false)"></setting>
+
+        <!-- Separator -->
+        <setting type="sep"></setting>
+
+        <!-- Apply... -->
+        <setting label="32099" id="applyIP" type="action" action="RunScript(script.module.netmgr, ApplySettings)" option="close"></setting>
+    </category>
+</settings>
